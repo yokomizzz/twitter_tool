@@ -7,6 +7,9 @@
 # Ignore bundler config.
 /.bundle
 
+# Ignore bundler gems.
+vendor/bundle
+
 # Ignore all logfiles and tempfiles.
 /log/*
 /tmp/*
@@ -25,3 +28,8 @@
 
 # Ignore master key for decrypting credentials and more.
 /config/master.key
+
+# Ignore unneeded
+.ruby-version
+/config/database.yml
+/config/secrets.yml
