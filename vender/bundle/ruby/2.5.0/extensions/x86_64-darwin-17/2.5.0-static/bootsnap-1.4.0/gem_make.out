@@ -1,0 +1,15 @@
+current directory: /Users/yokomi/Development/private/twitter_tool/vender/bundle/ruby/2.5.0/gems/bootsnap-1.4.0/ext/bootsnap
+/Users/yokomi/.rbenv/versions/2.5.1/bin/ruby -r ./siteconf20190222-77337-zhkkqf.rb extconf.rb
+creating Makefile
+
+current directory: /Users/yokomi/Development/private/twitter_tool/vender/bundle/ruby/2.5.0/gems/bootsnap-1.4.0/ext/bootsnap
+make "DESTDIR=" clean
+
+current directory: /Users/yokomi/Development/private/twitter_tool/vender/bundle/ruby/2.5.0/gems/bootsnap-1.4.0/ext/bootsnap
+make "DESTDIR="
+compiling bootsnap.c
+linking shared-object bootsnap/bootsnap.bundle
+
+current directory: /Users/yokomi/Development/private/twitter_tool/vender/bundle/ruby/2.5.0/gems/bootsnap-1.4.0/ext/bootsnap
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 bootsnap.bundle ./.gem.20190222-77337-iakrgn/bootsnap
