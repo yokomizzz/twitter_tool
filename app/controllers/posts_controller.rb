@@ -6,11 +6,23 @@ class PostsController < ActionController::Base
 
   def index
     @posts = @client.home_timeline
+    @post = Post.new
+    @account = Account.new
+    # @followers = @client.followers("yokomi_zzz")
   end
 
   def new
     @post = Post.new
   end
+
+  def create
+
+  end
+
+  def post_search
+    @post = Post.new
+  end
+
 end
 
 

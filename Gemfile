@@ -64,3 +64,7 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'ridgepole'
 gem 'twitter'
 gem 'slim-rails'
+
+# for Bootstrap4
+gem 'jquery-rails'
+gem 'bootstrap', '~> 4.1.1'

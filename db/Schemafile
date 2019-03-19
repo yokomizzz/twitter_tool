@@ -1,1 +1,2 @@
 require 'posts.schema'
+require 'accounts.schema'

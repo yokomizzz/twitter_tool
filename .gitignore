@@ -33,3 +33,4 @@ vendor/bundle
 .ruby-version
 /config/database.yml
 /config/secrets.yml
+/config/initializers/constants.rb

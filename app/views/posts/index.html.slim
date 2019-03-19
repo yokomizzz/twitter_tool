@@ -1,5 +1,36 @@
-h1 Posts
-div
-  - @posts.each do |post|
-    p
-      = post.text
+
+
+h2 Post_Search
+div class="container"
+  div class="row"
+    div class="col-md-4"
+      = form_for @post, url: { action: 'create' } do |f|
+        div class="form-group"
+          = f.label :name
+          = f.text_field :name, class: 'form-control', required: true
+        div class="form-group text-center"
+          = f.submit '検索する', class: 'btn btn-primary'
+
+h2 Account_Search
+div class="container"
+  div class="row"
+    div class="col-md-4"
+      = form_for @account, url: { action: 'create' } do |f|
+        div class="form-group"
+          = f.label :name
+          = f.text_field :name, class: 'form-control', required: true
+        div class="form-group text-center"
+          = f.submit '検索する', class: 'btn btn-primary'
+
+
+table
+  thead
+    tr
+      th Name
+      th Text
+
+  tbody
+    - @posts.each do |post|
+      tr
+        td = post.user.name
+        td = post.text.truncate(20)
